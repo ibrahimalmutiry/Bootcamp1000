@@ -8,18 +8,17 @@
 import SwiftUI
 
 struct TabBar: View {
-    @AppStorage("selectedTabed") var selectedTabed: Tab = .ContentView
-    
+    @AppStorage("selectedTabed") var selectedTabed: Tab = .MainView
     var body: some View {
         
         ZStack(alignment: .bottom){
             Group{
                 switch selectedTabed {
-                case .ContentView:
+                case .MainView:
                     MainView()
-                case.ContentView2:
+                case.SecondView:
                     ProfileView(icon: "lock.doc")
-                case.ContentView3:
+                case.ThirdView:
                     ProfileView(icon: "xmark.icloud")
                 case.ProfileView:
                     ProfileView(icon: "figure.wave.circle")

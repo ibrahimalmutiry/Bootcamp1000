@@ -11,21 +11,20 @@ import SwiftUI
 // Custom Tab Bar
 struct TabItem: Identifiable {
     var id = UUID()
-//    var text: String
     var icon: String
     var tab: Tab
     var color: Color
 }
 var tabItems = [
-    TabItem(icon: "house", tab: .ContentView, color: .teal),
-    TabItem(icon: "doc.plaintext", tab: .ContentView2, color: .blue),
-    TabItem(icon: "magnifyingglass", tab: .ContentView3, color: .red),
+    TabItem(icon: "house", tab: .MainView, color: .teal),
+    TabItem(icon: "doc.plaintext", tab: .SecondView, color: .blue),
+    TabItem(icon: "magnifyingglass", tab: .ThirdView, color: .red),
     TabItem(icon: "person", tab: .ProfileView, color: .pink)
 ]
 enum Tab: String {
-    case ContentView
-    case ContentView2
-    case ContentView3
+    case MainView
+    case SecondView
+    case ThirdView
     case ProfileView
 }
 

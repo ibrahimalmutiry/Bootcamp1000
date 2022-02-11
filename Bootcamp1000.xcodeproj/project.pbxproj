@@ -12,9 +12,9 @@
 		F86CA0CD27B4300500E0753B /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CA0CC27B4300500E0753B /* DetailsView.swift */; };
 		F86CA0CF27B4405D00E0753B /* MapExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CA0CE27B4405D00E0753B /* MapExample.swift */; };
 		F86CA0D127B4492B00E0753B /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CA0D027B4492B00E0753B /* Buttons.swift */; };
-		F8E44ACF27B67C0F00455F36 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E44ACE27B67C0F00455F36 /* TabBarView.swift */; };
 		F8E44AD227B67CCA00455F36 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E44AD127B67CCA00455F36 /* Model.swift */; };
 		F8E44AD427B68EAC00455F36 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E44AD327B68EAC00455F36 /* ProfileView.swift */; };
+		F8E44AD627B69CF300455F36 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E44AD527B69CF300455F36 /* TabBarView.swift */; };
 		F8ED463227B00F1700194939 /* Bootcamp1000App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED463127B00F1700194939 /* Bootcamp1000App.swift */; };
 		F8ED463427B00F1700194939 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED463327B00F1700194939 /* MainView.swift */; };
 		F8ED463627B00F1B00194939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8ED463527B00F1B00194939 /* Assets.xcassets */; };
@@ -28,9 +28,9 @@
 		F86CA0CC27B4300500E0753B /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		F86CA0CE27B4405D00E0753B /* MapExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapExample.swift; sourceTree = "<group>"; };
 		F86CA0D027B4492B00E0753B /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
-		F8E44ACE27B67C0F00455F36 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		F8E44AD127B67CCA00455F36 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F8E44AD327B68EAC00455F36 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F8E44AD527B69CF300455F36 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		F8ED462E27B00F1700194939 /* Bootcamp1000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamp1000.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8ED463127B00F1700194939 /* Bootcamp1000App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp1000App.swift; sourceTree = "<group>"; };
 		F8ED463327B00F1700194939 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -66,8 +66,8 @@
 				F8ED463327B00F1700194939 /* MainView.swift */,
 				F8ED463F27B01A4300194939 /* RecomendedView.swift */,
 				F86CA0CC27B4300500E0753B /* DetailsView.swift */,
-				F8E44ACE27B67C0F00455F36 /* TabBarView.swift */,
 				F8E44AD327B68EAC00455F36 /* ProfileView.swift */,
+				F8E44AD527B69CF300455F36 /* TabBarView.swift */,
 				F86CA0C627B42A2100E0753B /* TabBar.swift */,
 			);
 			path = Views;
@@ -189,7 +189,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8ED463427B00F1700194939 /* MainView.swift in Sources */,
-				F8E44ACF27B67C0F00455F36 /* TabBarView.swift in Sources */,
 				F86CA0CF27B4405D00E0753B /* MapExample.swift in Sources */,
 				F8ED463227B00F1700194939 /* Bootcamp1000App.swift in Sources */,
 				F8ED464027B01A4300194939 /* RecomendedView.swift in Sources */,
@@ -198,6 +197,7 @@
 				F86CA0C727B42A2100E0753B /* TabBar.swift in Sources */,
 				F86CA0CD27B4300500E0753B /* DetailsView.swift in Sources */,
 				F8E44AD427B68EAC00455F36 /* ProfileView.swift in Sources */,
+				F8E44AD627B69CF300455F36 /* TabBarView.swift in Sources */,
 				F86CA0D127B4492B00E0753B /* Buttons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
