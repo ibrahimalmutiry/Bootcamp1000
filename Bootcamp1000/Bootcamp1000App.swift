@@ -11,7 +11,7 @@ import SwiftUI
 struct Bootcamp1000App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBar()
         }
     }
 }

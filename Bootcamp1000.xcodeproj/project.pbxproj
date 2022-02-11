@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F86CA0C727B42A2100E0753B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CA0C627B42A2100E0753B /* TabBar.swift */; };
+		F86CA0CA27B42CE900E0753B /* RestaurantCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CA0C927B42CE900E0753B /* RestaurantCard.swift */; };
+		F86CA0CD27B4300500E0753B /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CA0CC27B4300500E0753B /* DetailsView.swift */; };
+		F86CA0CF27B4405D00E0753B /* MapExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CA0CE27B4405D00E0753B /* MapExample.swift */; };
+		F86CA0D127B4492B00E0753B /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CA0D027B4492B00E0753B /* Buttons.swift */; };
+		F8E44ACF27B67C0F00455F36 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E44ACE27B67C0F00455F36 /* TabBarView.swift */; };
+		F8E44AD227B67CCA00455F36 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E44AD127B67CCA00455F36 /* Model.swift */; };
+		F8E44AD427B68EAC00455F36 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E44AD327B68EAC00455F36 /* ProfileView.swift */; };
 		F8ED463227B00F1700194939 /* Bootcamp1000App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED463127B00F1700194939 /* Bootcamp1000App.swift */; };
-		F8ED463427B00F1700194939 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED463327B00F1700194939 /* ContentView.swift */; };
+		F8ED463427B00F1700194939 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED463327B00F1700194939 /* MainView.swift */; };
 		F8ED463627B00F1B00194939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8ED463527B00F1B00194939 /* Assets.xcassets */; };
 		F8ED463927B00F1B00194939 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8ED463827B00F1B00194939 /* Preview Assets.xcassets */; };
+		F8ED464027B01A4300194939 /* RecomendedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED463F27B01A4300194939 /* RecomendedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F86CA0C627B42A2100E0753B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F86CA0C927B42CE900E0753B /* RestaurantCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCard.swift; sourceTree = "<group>"; };
+		F86CA0CC27B4300500E0753B /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		F86CA0CE27B4405D00E0753B /* MapExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapExample.swift; sourceTree = "<group>"; };
+		F86CA0D027B4492B00E0753B /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		F8E44ACE27B67C0F00455F36 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F8E44AD127B67CCA00455F36 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F8E44AD327B68EAC00455F36 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F8ED462E27B00F1700194939 /* Bootcamp1000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamp1000.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8ED463127B00F1700194939 /* Bootcamp1000App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp1000App.swift; sourceTree = "<group>"; };
-		F8ED463327B00F1700194939 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8ED463327B00F1700194939 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F8ED463527B00F1B00194939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8ED463827B00F1B00194939 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8ED463F27B01A4300194939 /* RecomendedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F86CA0C827B42CC900E0753B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F86CA0C927B42CE900E0753B /* RestaurantCard.swift */,
+				F86CA0CE27B4405D00E0753B /* MapExample.swift */,
+				F86CA0D027B4492B00E0753B /* Buttons.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F86CA0CB27B42F7D00E0753B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8ED463327B00F1700194939 /* MainView.swift */,
+				F8ED463F27B01A4300194939 /* RecomendedView.swift */,
+				F86CA0CC27B4300500E0753B /* DetailsView.swift */,
+				F8E44ACE27B67C0F00455F36 /* TabBarView.swift */,
+				F8E44AD327B68EAC00455F36 /* ProfileView.swift */,
+				F86CA0C627B42A2100E0753B /* TabBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8E44AD027B67CB800455F36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8E44AD127B67CCA00455F36 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F8ED462527B00F1700194939 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				F8ED463127B00F1700194939 /* Bootcamp1000App.swift */,
-				F8ED463327B00F1700194939 /* ContentView.swift */,
+				F8E44AD027B67CB800455F36 /* Model */,
+				F86CA0C827B42CC900E0753B /* Components */,
+				F86CA0CB27B42F7D00E0753B /* Views */,
 				F8ED463527B00F1B00194939 /* Assets.xcassets */,
 				F8ED463727B00F1B00194939 /* Preview Content */,
 			);
@@ -137,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8ED463427B00F1700194939 /* ContentView.swift in Sources */,
+				F8ED463427B00F1700194939 /* MainView.swift in Sources */,
+				F8E44ACF27B67C0F00455F36 /* TabBarView.swift in Sources */,
+				F86CA0CF27B4405D00E0753B /* MapExample.swift in Sources */,
 				F8ED463227B00F1700194939 /* Bootcamp1000App.swift in Sources */,
+				F8ED464027B01A4300194939 /* RecomendedView.swift in Sources */,
+				F8E44AD227B67CCA00455F36 /* Model.swift in Sources */,
+				F86CA0CA27B42CE900E0753B /* RestaurantCard.swift in Sources */,
+				F86CA0C727B42A2100E0753B /* TabBar.swift in Sources */,
+				F86CA0CD27B4300500E0753B /* DetailsView.swift in Sources */,
+				F8E44AD427B68EAC00455F36 /* ProfileView.swift in Sources */,
+				F86CA0D127B4492B00E0753B /* Buttons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
